@@ -45,3 +45,12 @@ section {
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:20px;
 }
+.dark{
+    background:#111;
+    color:white;
+}
+
+.dark .project{
+    background:#222;
+    color:white;
+}
