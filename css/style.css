@@ -54,3 +54,10 @@ section {
     background:#222;
     color:white;
 }
+#themeBtn{
+    margin:15px;
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
