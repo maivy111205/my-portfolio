@@ -95,3 +95,33 @@ height:150px;
 .dark a{
     color:#ffb6c1;
 }
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-top:20px;
+}
+
+input, textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+textarea{
+    min-height:120px;
+}
+
+button{
+    padding:12px;
+    background:#333;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}
