@@ -9,6 +9,7 @@
     <nav>
         <a href="index.html">Trang chủ</a>
         <a href="about.html">Giới thiệu</a>
+        <a href="projects.html">Projects</a>
         <a href="contact.html">Liên hệ</a>
     </nav>
 
@@ -16,17 +17,18 @@
 
     <h1>Liên hệ với tôi</h1>
 
-    <form>
+    <form action="https://formspree.io/f/xxxxx" method="POST">
 
-        <input type="text" placeholder="Họ và tên">
+    <input type="text" name="name" placeholder="Họ và tên" required>
 
-        <input type="email" placeholder="Email">
+    <input type="email" name="email" placeholder="Email" required>
 
-        <textarea placeholder="Nội dung"></textarea>
+    <textarea name="message" placeholder="Nội dung" required></textarea>
 
-        <button type="submit">Gửi</button>
+    <button type="submit">Gửi</button>
 
     </form>
 
 </section>
 </body>
+</html>
